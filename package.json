@@ -10,5 +10,11 @@
     "toolchain"
   ],
   "author": "Alex Cruz Fonseca",
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13"
+  }
 }
