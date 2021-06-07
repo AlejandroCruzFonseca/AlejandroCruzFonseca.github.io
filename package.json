@@ -4,7 +4,10 @@
   "description": "Toolchain to be used for custom projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode production",
+    "start:dev": "webpack serve --mode development"
   },
   "keywords": [
     "toolchain"
@@ -22,5 +25,10 @@
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.0",
     "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-loader": "^4.13.0"
   }
 }
