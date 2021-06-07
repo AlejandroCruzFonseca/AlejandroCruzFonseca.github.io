@@ -1,0 +1,14 @@
+{
+  "name": "ocular-toolchain",
+  "version": "0.0.1",
+  "description": "Toolchain to be used for custom projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "toolchain"
+  ],
+  "author": "Alex Cruz Fonseca",
+  "license": "GPL-3.0-or-later"
+}
